@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Flange Design Calculator
+        </title>
+    </head
+    <body>
+        <h3>
+            ASME BPVC VIII-1 App.2 Calculator
+        </h3>
+        <p>
+            Enter the design data required below.<br>
+            Be mindful of units as this only works in specified units at this time.<br>
+            <form action="/calculate_customary" method="post">
+                Diameter at location of gasket load reactions G (in): <input type="number" step="any" name="G">  <br />
+                Internal design pressure P (psi): <input type="number" step="any" name="P">  <br />
+                Gasket factor m (Table 2-5.1): <input type="number" step="any" name="m">  <br />
+                Effective gasket or joint-contact-surface seating width b (in): <input type="number" step="any" name="b">  <br />
+                Gasket or joing-contact-surface unit seating load y (psi): <input type="number" step="any" name="y">  <br />
+                Actual cross-sectional area of bolts Ab (in): <input type="number" step="any" name="Ab">  <br />
+                Allowable bolt stress at atmospheric temperature Sa (psi): <input type="number" step="any" name="Sa">  <br />
+                Allowable bolt stress at design temperature Sb (psi): <input type="number" step="any" name="Sb">  <br />
+                Nominal bolt diameter a (in): <input type="number" step="any" name="a">  <br />
+                Flange thickness t (in): <input type="number" step="any" name="t">  <br />
+                Bolt circle diameter C (in): <input type="number" step="any" name="C">  <br />
+                Number of bolts n: <input type="number" step="any" name="n">  <br />
+                Inside diameter of flange B (in): <input type="number" step="any" name="B">  <br />
+                Radial distance from the bolt circle on which end force acts h_D (in): <input type="number" step="any" name="h_D">  <br />
+                Radial distance from the bolt circle on which Tangential load H_T acts h_T (in): <input type="number" step="any" name="h_T">  <br />
+                Factor F from Fig 2-7.2: <input type="number" step="any" name="F">  <br />
+                Small hub flange thickness g0 (in): <input type="number" step="any" name="g0">  <br />
+                Outside diameter of flange A (in): <input type="number" step="any" name="A">  <br />
+                Factor V from figure 2-7.3: <input type="number" step="any" name="V">  <br />
+                Large hub thickness at the back of flange g1 (in): <input type="number" step="any" name="g1">  <br />
+                Stress correction factor f from Fig 2-7.6: <input type="number" step="any" name="f">  <br />
+                Allowable design stress at operating conditions for material Sfo (psi): <input type="number" step="any" name="Sfo">  <br />
+                Allowable design stress at gasket seating for material Sfg (psi): <input type="number" step="any" name="Sfg"> <br />
+                <input type="submit" value="Submit" />
+            </form>
+        </p>
+    </body>
+</html>

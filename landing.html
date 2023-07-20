@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Flange Design Calculator
+        </title>
+    </head
+    <body>
+        <h3>
+            ASME BPVC VIII-1 App.2 Calculator
+        </h3>
+        <p>
+            Please select which unit system you are using.
+            <form action="{{ url_for('unit_check') }}" method="post">
+                <input type="radio" id="customary" name="unit_system" value="customary">
+                <label for="customary">Customary unit system (in, lb, etc)</label>  <br>
+                <input type="radio" id="si" name="unit_system" value="si">
+                <label for="si">SI unit system (mm, N, etc)</label>  <br>  <br>
+                <input type="submit" value="Submit" />
+            </form>
+        </p>
+    </body>
+</html>
