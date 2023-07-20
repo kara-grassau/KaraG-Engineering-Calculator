@@ -1,4 +1,4 @@
-# KaraG-Calculator
+# KaraG-Engineering-Calculator
 *Repository for KaraG.pythonanywhere.com*
 
 Hello! My name is Kara Grassau and I am an engineering intern this summer at a risk management firm.
